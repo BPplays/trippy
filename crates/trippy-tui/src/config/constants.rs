@@ -62,10 +62,10 @@ pub const DEFAULT_DNS_TTL: Duration = Duration::from_secs(300);
 pub const DEFAULT_REPORT_CYCLES: usize = 10;
 
 /// The minimum TUI refresh rate.
-pub const TUI_MIN_REFRESH_RATE_MS: Duration = Duration::from_millis(50);
+pub const TUI_MIN_REFRESH_RATE_MS: Duration = Duration::from_millis(1);
 
 /// The maximum TUI refresh rate.
-pub const TUI_MAX_REFRESH_RATE_MS: Duration = Duration::from_millis(1000);
+pub const TUI_MAX_REFRESH_RATE_MS: Duration = Duration::from_secs(150);
 
 /// The minimum socket read timeout.
 pub const MIN_READ_TIMEOUT_MS: Duration = Duration::from_millis(10);
